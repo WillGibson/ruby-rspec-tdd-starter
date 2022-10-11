@@ -1,1 +1,1 @@
-# ruby-rspec-tdd-starter
+# Test Driven Development Code Retreat Ruby + RSpec Starter
