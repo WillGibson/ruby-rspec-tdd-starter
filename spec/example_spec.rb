@@ -2,7 +2,7 @@ require 'example'
 
 describe Example do
 
-  describe ".some_method" do
+  describe "some_method" do
 
     it "returns what it is given" do
       example = Example.new
