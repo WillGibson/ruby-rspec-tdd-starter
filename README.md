@@ -16,3 +16,9 @@ You can run the tests via the command line...
     bundle exec rspec
 
 ...but it will be a better developer experience if you run them in your IDE where you can use the debugger etc.
+
+## Cleaning up after each iteration
+
+We should start each iteration in the code retreat with a clean slate. This command will return you to how the code was when you checked it out...
+
+    git reset --hard origin/main
