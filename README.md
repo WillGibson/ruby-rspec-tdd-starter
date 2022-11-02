@@ -22,3 +22,7 @@ You can run the tests via the command line...
 We should start each iteration in the code retreat with a clean slate. This command will return you to how the code was when you checked it out...
 
     git reset --hard origin/main
+
+## Example unit tests
+
+We may not all be familiar with RSpec, so there are some example unit tests included so you can easily see how some common things can be done.
