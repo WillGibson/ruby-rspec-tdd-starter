@@ -1,4 +1,4 @@
-require 'example'
+require 'example/example'
 
 describe Example do
 
@@ -14,10 +14,10 @@ describe Example do
       expect(result).to eq(123)
     end
 
-    it "throws error when no input" do
-      expect {
-        result = @example.some_method()
-      }.to raise_error("No input provided")
+    it "still returns what it is given" do
+      result = @example.some_method(456)
+
+      expect(result).to eq(456)
     end
 
   end
