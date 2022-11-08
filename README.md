@@ -21,7 +21,7 @@ You can run the tests via the command line...
 
 We should start each iteration in the code retreat with a clean slate. This command will return you to how the code was when you checked it out...
 
-    git reset --hard origin/main
+    git reset --hard origin/main && git clean -df 
 
 ## Example unit tests
 
